@@ -1,0 +1,229 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 571225 */
+  src: url('https://at.alicdn.com/t/font_571225_5zdbyw31nka9k9.eot');
+  src: url('https://at.alicdn.com/t/font_571225_5zdbyw31nka9k9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_571225_5zdbyw31nka9k9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_571225_5zdbyw31nka9k9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_571225_5zdbyw31nka9k9.svg#iconfont') format('svg');
+}
+
+.title{
+	width: 100%;
+	height: 1.26rem;
+	background-color: #FFFEFE;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+.title_top{
+	width: 100%;
+	height: 0.9rem;
+	/* background-color: yellow; */
+}
+.title_top h1{
+	font-size: 0.4rem;
+	color: #FF2F49;
+	margin-left: 4.26rem;
+	line-height: 0.9rem;
+	float: left;
+	margin-right: 0.6rem;
+}
+.title_top h2{
+	font-size: 0.4rem;
+	color: #351E1E;
+	margin-right: 4.26rem;
+	line-height: 0.9rem;
+}
+.title_bot{
+	width: 1.08rem;
+	height: 0.06rem;
+	background-color:#FF2F49;
+	border-radius: 0.2rem;
+	margin-left: 4.14rem; 
+}
+.search{
+	width: 10.21rem;
+	height: 0.9rem;
+	margin-top: 0.26rem;
+	border-radius: 0.4rem;
+	background-color: #FAF5F5;
+	margin: 0 auto;
+	margin-bottom: 0.2rem;
+	position: fixed;
+	top: 1.26rem;
+	left: 0rem;
+}
+.search span{
+	font-family: 'iconfont';
+	line-height: 0.9rem;
+	font-size: 0.44rem;
+	color: #9B7E7E;
+	text-align: center;
+	margin-left: 3.44rem;
+	float: left;
+}
+.column{
+	width: 100%;
+	height: 7.96rem;
+	/* background-color: red; */
+	margin-top: 2.3rem;
+}
+.all{
+	width: 10.14rem;
+	height: 0.36rem;
+	/* background-color: yellow; */
+	margin-bottom: 0.4rem;
+	margin-left: 0.3rem;
+}
+.all h1{
+	line-height: 0.36rem;
+	color: #8C7878;
+	font-size: 0.3rem;
+	font-weight: normal;
+	float: left;
+}
+.all h2{
+	color: #513F3F;
+	font-size: 0.3rem;
+	float: right;
+}
+.column1{
+	width: 8.25rem;
+	height: 2.12rem;
+	/* background-color: blue; */
+	float: left;
+	margin-bottom: 0.3rem;
+}
+.column3{
+	width: 8.26rem;
+	height: 7.24rem;
+	float: left;
+}
+.column2{
+	width: 100%;
+	height: 7.24rem;
+	/* background-color: yellow; */
+	display: flex;
+	overflow: hidden;
+	overflow-x: scroll;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+	flex-shrink: 0;
+}
+.column2::-webkit-scrollbar{
+	display: none;
+	/* display: block; */
+}
+.column1_img{
+	width: 3.9rem;
+	height: 2.11rem;
+	overflow: hidden;
+	float: left;
+}
+.column1_img img{
+	width: 3.9rem;
+	height: 2.11rem;
+}
+.column1_word{
+	width: 4.35rem;
+	height: 2.11rem;
+	float: left;
+}
+.column1_word h1{
+	line-height: 0.4rem;
+	margin-top: 0.54rem;
+	margin-left: 0.3rem;
+	font-size: 0.4rem;
+	color: #351E1E;
+	font-weight: normal;
+}
+.column1_word h2{
+	line-height: 0.33rem;
+	margin-top: 0.37rem;
+	margin-left: 0.3rem;
+	font-size: 0.33rem;
+	color: #A09696;
+	font-weight: normal;
+} 
+.fenge{
+	width: 100%;
+	height: 0.28rem;
+	background-color: #FAF5F5;
+}
+.pinlei{
+	width: 10.80rem;
+	height: 10.66rem;
+	/* background-color:green;  */
+}
+.pinlei1{
+	width: 10.14rem;
+	height: 9.46rem;
+	margin: 0 auto;
+	/* background-color: green; */
+}
+.pinlei2{
+	width: 4.93rem;
+	height: 2.84rem;
+	background-color: #F3EFEE;
+	border-radius: 0.1rem;
+	overflow: hidden;
+	position: relative;
+	float: left;
+	margin-bottom: 0.3rem;
+	margin-right: 0.28rem;
+}
+.pinlei2 h1{
+	font-size: 0.46rem;
+	line-height: 0.46rem;
+	margin-top: 0.88rem;
+	margin-left: 0.46rem;
+	color: #271110;
+}
+.pinlei2 h2{
+	font-size: 0.34rem;
+	line-height: 0.46rem;
+	margin-top: 0.3rem;
+	margin-left: 0.46rem;
+	color: #4D3A39;
+	font-weight: normal;
+}
+.pinlei2 h3{
+	color: #BBC8D1;
+	font-family: 'iconfont';
+	position: absolute;
+	right: 0.25rem;
+	top: 0.6rem;
+}
+.pinlei3{
+	margin-right: 0rem;
+}
+.foot{
+	width: 100%;
+	height: 1.46rem;
+	background-color: #FFFEFE;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+}
+.nav1{
+	width: 0.8rem;
+	height: 100%;
+	margin-left: 0.94rem;
+	float: left;
+	margin-right: 0.94rem;
+}
+.nav1 h1{
+	color: #999999;
+	font-size: 0.78rem;
+	line-height: 0.95rem;
+	font-family:  'iconfont';
+	font-weight: normal;
+}
+.nav1 h2{
+	font-size: 0.35rem;
+	line-height: 0.5rem;
+	color: #999999;
+	/* margin-top: 0.2rem; */
+	font-weight: normal;
+}
